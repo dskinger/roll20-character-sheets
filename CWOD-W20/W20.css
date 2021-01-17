@@ -131,13 +131,12 @@ h4.sheet-inline {
 }
 
 .charsheet {
-    font-family: 'RufscriptRegular'; 
+    font-family: 'LindenHillRegular'; 
     text-shadow: 0em 0em 0.3em white, 0em 0em 0.3em white, 0em 0em 0.3em white, 0em 0em 0.3em white, 0em 0em 0.3em white;
 }
     
 @font-face {
-    font-family: 'RufscriptRegular'; 
-    src: url('http://openfontlibrary.org/assets/fonts/rufscript/92112519f91e7a5ab80261a017c09b72/f886671cdc88e2725676a457e14e8512/RufscriptRegular.ttf');
+    font-family: 'LindenHillRegular';
     font-weight: normal; 
     font-style: normal;
 }
@@ -319,7 +318,7 @@ input.sheet-aggravateddot:checked ~ span.sheet-aggravateddot {
 }
 
 .sheet-bashingdot:before {
-    font-family: "Candal", fantasy;
+    font-family: 'LindenHillRegular';
     content:"/";
     font-weight: 900;
     font-size: 18px;
@@ -336,7 +335,7 @@ input.sheet-aggravateddot:checked ~ span.sheet-aggravateddot {
     color:black;
 }
 .sheet-lethaldot:before {
-    font-family: "Candal", fantasy;
+    font-family: 'LindenHillRegular';
     content:"X";
     font-weight: 900;
     font-size: 18px;
@@ -352,7 +351,7 @@ input.sheet-aggravateddot:checked ~ span.sheet-aggravateddot {
     border:2px solid black;
 }
 .sheet-aggravateddot:before {
-    font-family: "Candal", fantasy;
+    font-family: 'LindenHillRegular';
     content:"X";
     font-weight: 900;
     font-size: 18px;
@@ -767,7 +766,7 @@ button[type=roll].sheet-initiative:before {
 
 button[type=roll].sheet-initiative {
     background-image: none;
-    font-family:"RufscriptRegular";
+    font-family: 'LindenHillRegular';
     color:black;
     font-size:1.2em;
     font-weight:700;
@@ -801,7 +800,7 @@ button[type=roll].sheet-adv:before {
 
 button[type=roll].sheet-adv {
     background-image: none;
-    font-family:"RufscriptRegular";
+    font-family: 'LindenHillRegular';
     color:black;
     font-size:1.4em;
     font-weight:700;
@@ -876,7 +875,7 @@ button[type=roll].sheet-damageroll:before {
 button[type=roll].sheet-damageroll {
     background-image: none;
     background: black;
-    font-family:"RufscriptRegular";
+    font-family: 'LindenHillRegular';
     color:white;
     font-size:1.4em;
     font-weight:700;
@@ -906,7 +905,7 @@ button[type=roll].sheet-weaponroll:before {
 button[type=roll].sheet-weaponroll {
     background-image: none;
     background: red;
-    font-family:"RufscriptRegular";
+    font-family: 'LindenHillRegular';
     color:black;
     font-size:1.4em;
     font-weight:700;
